@@ -1,0 +1,151 @@
+
+.video_downloader_main{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(180deg,#0085cf 0,#01c5c9);
+}
+
+h1{
+    font-size: 4em;
+    color: whitesmoke;
+
+}
+.video_downloader_title{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_downloader_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_downloader_description_p{
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.video_downloader_url{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_downloader_form{
+    background-color: white;
+    width: 80%;
+    border: 3px solid #00C246;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.video_downloader_icon{
+    width: 5%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 60px;
+    height: 60px;
+    color: lightgray;
+}
+
+.video_downloader_input{
+    width: 65%; 
+    height: 80px; 
+    border-style: none; 
+    outline: 2px solid transparent;
+}
+
+.video_downloader_button{
+    width: 20%; 
+    height: 75px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #00C246; 
+    color: white;
+    border: 0; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video_downloader_select{
+    width: 8%; 
+    margin-left: 10px;
+    height: 75px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #00C246; 
+    color: white;
+    border: 0; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video_downloader_select  option{
+    color: white;
+}
+
+.how_to_use{
+    background-color:#F5F6FA;
+}
+
+.how_to_use_title{
+    font-size: 3em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.how_to_use_container{
+    padding: 10px;
+}
+
+.how_to_use_row{
+    display: flex; 
+    width: 100%;
+}
+
+.how_to_use_step{
+    border-radius: 10px;
+    width: 50%; 
+    height: 50vh; 
+    padding: 10px; 
+    margin: 10px;
+    background-color: white;
+}
+
+.how_to_use_step_title{
+    font-size: 24px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: orange;
+}
+
+.how_to_use_step_description{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+}
+
+.how_to_use_image{
+    height: 60%;
+}
+
+
+img{
+    width:100%;
+    height:stretch;
+}

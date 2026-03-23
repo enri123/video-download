@@ -1,0 +1,19 @@
+mat-toolbar{
+    background-color: #12141D; 
+    width: 100%;
+}
+
+.titulo{
+    width: 50%; 
+    color: white;
+}
+
+.enlaces{
+    width: 50%;
+}
+
+.enlace{
+    text-decoration: none; 
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
