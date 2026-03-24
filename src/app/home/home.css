@@ -36,13 +36,16 @@ h1{
 
 .video_downloader_form{
     background-color: white;
-    width: 80%;
     border: 3px solid #00C246;
     display: flex;
     align-items: center;
     border-radius: 5px;
     padding: 3px;
+}
 
+form{
+    width: 70%;
+ 
 }
 
 .video_downloader_icon{

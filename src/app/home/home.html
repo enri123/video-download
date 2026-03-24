@@ -10,17 +10,22 @@
         </div>
 
         <div class="video_downloader_url">
-            <div class="video_downloader_form">
-                <mat-icon class="video_downloader_icon">link</mat-icon>
-                <input class="video_downloader_input" placeholder="Introduce una url" />
+            <form (ngSubmit)="sendEmail()">
 
-                <button class="video_downloader_button"><mat-icon>get_app</mat-icon> Download</button>
-                <select class="video_downloader_select" name="extension" id="extension">
-                    <option value="value1" selected>mp4</option>
-                    <option value="value2">mp3</option>
-                    <option value="value3">efsd</option>
-                </select>
-            </div>
+                <div class="video_downloader_form">
+                    <mat-icon class="video_downloader_icon">link</mat-icon>
+
+                    <input class="video_downloader_input" placeholder="Introduce una url" />
+
+                    <button class="video_downloader_button" type="submit"><mat-icon>get_app</mat-icon> Download</button>
+                    <select class="video_downloader_select" name="extension" id="extension">
+                        <option value="value1" selected>mp4</option>
+                        <option value="value2">mp3</option>
+                        <option value="value3">efsd</option>
+                    </select>
+                </div>
+            </form>
+
         </div>
     </div>
 </div>

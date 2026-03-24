@@ -10,5 +10,7 @@ import { FormsModule } from '@angular/forms';
 })
 
 export class Home {
-
+  async sendEmail() {
+    console.log("Hola")
+  }
 }
